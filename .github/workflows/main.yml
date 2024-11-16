@@ -26,6 +26,5 @@ jobs:
         uses: docker/build-push-action@v6.9.0
         with:
           context: ./
-          file: ./AspNetGha/Dockerfile  # Path to the Dockerfile
           tags: daniellopescodbr/aspnetgha:latest
           push: true
